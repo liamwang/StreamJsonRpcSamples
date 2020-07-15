@@ -24,7 +24,10 @@ namespace WebSocketSample.Server.Controllers
                 return new BadRequestResult();
             }
 
+            _logger.LogInformation("等待客户端连接...");
             var socket = await HttpContext.WebSockets.AcceptWebSocketAsync();
+            _logger.LogInformation("已与客户端建立连接");
+
             var handler = new WebSocketMessageHandler(socket);
 
             using (var jsonRpc = new JsonRpc(handler, _greeterServer))

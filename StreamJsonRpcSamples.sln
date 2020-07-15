@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamSample.Client", "Stre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamSample.Server", "StreamSample.Server\StreamSample.Server.csproj", "{D89E286D-20B1-4CE5-B835-3E95CFD1B229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketSample.Client", "WebSocketSample.Client\WebSocketSample.Client.csproj", "{29F86409-511B-422E-976E-99C95A238D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketSample.Client", "WebSocketSample.Client\WebSocketSample.Client.csproj", "{29F86409-511B-422E-976E-99C95A238D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketSample.Server", "WebSocketSample.Server\WebSocketSample.Server.csproj", "{A60CC71C-1BE3-4C38-BA91-AA5FD0BA074C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketSample.Server", "WebSocketSample.Server\WebSocketSample.Server.csproj", "{A60CC71C-1BE3-4C38-BA91-AA5FD0BA074C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{CA149EDB-515C-4D5E-8281-3FB4F86F14C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contract", "Contract\Contract.csproj", "{CA149EDB-515C-4D5E-8281-3FB4F86F14C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSample.Client", "TcpSample.Client\TcpSample.Client.csproj", "{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSample.Server", "TcpSample.Server\TcpSample.Server.csproj", "{6459629D-869C-488A-93CC-B3C4915A1922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,30 @@ Global
 		{CA149EDB-515C-4D5E-8281-3FB4F86F14C6}.Release|x64.Build.0 = Release|Any CPU
 		{CA149EDB-515C-4D5E-8281-3FB4F86F14C6}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA149EDB-515C-4D5E-8281-3FB4F86F14C6}.Release|x86.Build.0 = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|x64.Build.0 = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Debug|x86.Build.0 = Debug|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|x64.ActiveCfg = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|x64.Build.0 = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|x86.ActiveCfg = Release|Any CPU
+		{83976F9F-7BDD-491C-B51F-B7DF5DF76D64}.Release|x86.Build.0 = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|x64.Build.0 = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Debug|x86.Build.0 = Debug|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|x64.ActiveCfg = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|x64.Build.0 = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|x86.ActiveCfg = Release|Any CPU
+		{6459629D-869C-488A-93CC-B3C4915A1922}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
